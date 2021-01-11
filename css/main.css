@@ -628,12 +628,12 @@ body {
 
 .social-links a:hover,
 .social-links a:focus {
-  fill: var(--primary-white-color);
-  background-color: var(--accent-color);
+  fill: #ffffff;
+  background-color: #2196f3;
 }
 
 .team {
-  background: var(--secondary-background);
+  background: #f5f4fa;
   padding-bottom: 94px;
   padding-top: 94px;
 }

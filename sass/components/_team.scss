@@ -10,11 +10,11 @@
 }
 .social-links a:hover,
 .social-links a:focus {
-  fill: var(--primary-white-color);
-  background-color: var(--accent-color);
+  fill: $primary-white-color;
+  background-color: $accent-color;
 }
 .team {
-  background: var(--secondary-background);
+  background: $secondary-background;
   padding-bottom: 94px;
   padding-top: 94px;
 }
