@@ -1,0 +1,113 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.web {
+  color: var(--accent-color);
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.studio-black {
+  font-family: "raleway", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.studio-white {
+  font-family: "raleway", sans-serif;
+  display: inline-block;
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.link,
+.link-opened {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.link-opened::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 4px;
+  width: 100%;
+  bottom: -1px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+.link-opened {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.item {
+  display: flex;
+  position: relative;
+  margin-right: 50px;
+}
+
+.item:first-child {
+  margin-right: 93px;
+}
+.item:last-child {
+  margin-right: 0px;
+}
+.nav-list .link {
+  color: var(--primary-title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+.nav-list > a {
+  font-family: "raleway", sans-serif;
+}
+.contacts {
+  margin-right: 50px;
+}
+.contacts:last-child {
+  margin-right: 0px;
+}
+.contacts-nav {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.contacts .link {
+  display: flex;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  align-items: center;
+}
+
+.contacts a:hover {
+  color: var(--accent-color);
+}
+
+.contact {
+  margin-right: 10px;
+  fill: currentColor;
+}
