@@ -9,7 +9,7 @@
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
 }
 .clients-container {
   display: flex;
@@ -27,8 +27,8 @@
 }
 .client-card a:hover,
 .client-card a:focus {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  color: $accent-color;
+  border: 1px solid $accent-color;
 }
 .client-card > a {
   display: flex;
