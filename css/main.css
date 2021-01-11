@@ -508,19 +508,19 @@ body {
 }
 
 .icon-antenna::before {
-  background-image: url(./icons/antenna1.svg);
+  background-image: url(/icons/antenna1.svg);
 }
 
 .icon-clock::before {
-  background-image: url(./icons/clock1.svg);
+  background-image: url(/icons/clock1.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(./icons/diagram1.svg);
+  background-image: url(/icons/diagram1.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(./icons/astronaut1.svg);
+  background-image: url(/icons/astronaut1.svg);
 }
 
 .features-title {
@@ -531,7 +531,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-title-color);
+  color: var(primary-title-color);
 }
 
 .features-text {
@@ -578,7 +578,7 @@ body {
   height: 70px;
   width: 100%;
   bottom: 0;
-  color: var(--primary-white-color);
+  color: var(#ffffff);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

@@ -23,16 +23,16 @@
   border-radius: 4px;
 }
 .icon-antenna::before {
-  background-image: url(./icons/antenna1.svg);
+  background-image: url(/icons/antenna1.svg);
 }
 .icon-clock::before {
-  background-image: url(./icons/clock1.svg);
+  background-image: url(/icons/clock1.svg);
 }
 .icon-diagram::before {
-  background-image: url(./icons/diagram1.svg);
+  background-image: url(/icons/diagram1.svg);
 }
 .icon-astronaut::before {
-  background-image: url(./icons/astronaut1.svg);
+  background-image: url(/icons/astronaut1.svg);
 }
 .features-title {
   min-width: 270px;
@@ -42,7 +42,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-title-color);
+  color: var(primary-title-color);
 }
 .features-text {
   font-size: 14px;

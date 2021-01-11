@@ -30,7 +30,7 @@
   height: 70px;
   width: 100%;
   bottom: 0;
-  color: var(--primary-white-color);
+  color: var(primary-white-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
