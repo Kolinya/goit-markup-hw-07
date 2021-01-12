@@ -835,10 +835,6 @@ body {
   margin-right: 30px;
 }
 
-.features-block:last-child {
-  margin-right: 0px;
-}
-
 .features-block::before {
   content: "";
   display: block;
@@ -850,20 +846,24 @@ body {
   border-radius: 4px;
 }
 
-.icon-antenna::before {
+.features-block.icon-antenna::before {
   background-image: url(../icons/antenna1.svg);
 }
 
-.icon-clock::before {
+.features-block.icon-clock::before {
   background-image: url(../icons/clock1.svg);
 }
 
-.icon-diagram::before {
+.features-block.icon-diagram::before {
   background-image: url(../icons/diagram1.svg);
 }
 
-.icon-astronaut::before {
+.features-block.icon-astronaut::before {
   background-image: url(../icons/astronaut1.svg);
+}
+
+.features-block:last-child {
+  margin-right: 0px;
 }
 
 .features-title {
@@ -1047,7 +1047,7 @@ body {
   padding-bottom: 94px;
 }
 
-.client-title {
+.clients-title {
   text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
@@ -1063,7 +1063,7 @@ body {
   display: flex;
 }
 
-.client-card {
+.clients-card {
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -1071,17 +1071,17 @@ body {
   margin-right: 30px;
 }
 
-.client-card:last-child {
+.clients-card:last-child {
   margin-right: 0px;
 }
 
-.client-card a:hover,
-.client-card a:focus {
+.clients-card a:hover,
+.clients-card a:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
 }
 
-.client-card > a {
+.clients-card > a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1095,7 +1095,7 @@ body {
           align-items: center;
 }
 
-.client-icon {
+.clients-icon {
   fill: currentColor;
 }
 
