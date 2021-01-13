@@ -953,6 +953,13 @@ body {
   color: #212121;
 }
 
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 32px;
+}
+
 .social-links a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -973,6 +980,10 @@ body {
 .social-links a:hover, .social-links a:focus {
   fill: #ffffff;
   background-color: #2196f3;
+}
+
+.social-links li {
+  margin-right: 10px;
 }
 
 .team {
@@ -1150,19 +1161,6 @@ body {
   color: #2196f3;
 }
 
-.footer.social-links {
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: 32px;
-  margin-left: 32px;
-}
-
-.footer.social-links li {
-  margin-right: 10px;
-}
-
 .info {
   margin-right: 70px;
 }
@@ -1177,25 +1175,12 @@ body {
   text-transform: uppercase;
 }
 
-.footer .social-links a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  fill: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
+footer .social-links {
+  margin: auto;
 }
 
-.footer .social-links a:hover, .footer .social-links a:focus {
-  color: #2196f3;
+footer .social-links a {
+  fill: #ffffff;
 }
 
 .form {

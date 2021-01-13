@@ -44,16 +44,6 @@
       color: $accent-color;
     }
   }
-  &.social-links {
-    margin: auto;
-    display: flex;
-    margin-right: 32px;
-    margin-left: 32px;
-
-    & li {
-      margin-right: 10px;
-    }
-  }
 }
 
 .info {
@@ -69,19 +59,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+footer .social-links {
+  margin: auto;
 
-.footer .social-links a {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  fill: $primary-white-color;
-  background-color: rgba(255, 255, 255, 0.1);
-  &:hover,
-  &:focus {
-    color: $accent-color;
+  & a {
+    fill: $primary-white-color;
   }
 }
 
