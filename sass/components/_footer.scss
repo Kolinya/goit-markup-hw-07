@@ -44,8 +44,15 @@
       color: $accent-color;
     }
   }
-  & .social-links {
+  &.social-links {
     margin: auto;
+    display: flex;
+    margin-right: 32px;
+    margin-left: 32px;
+
+    & li {
+      margin-right: 10px;
+    }
   }
 }
 
@@ -53,19 +60,8 @@
   margin-right: 70px;
 }
 
-.social-links {
-  display: flex;
-  margin-right: 32px;
-  margin-left: 32px;
-
-  & a:hover,
-  & a:focus {
-    background-color: $accent-color;
-  }
-
-  & li {
-    margin-right: 10px;
-  }
+& li {
+  margin-right: 10px;
 }
 
 .social > p {
@@ -87,6 +83,10 @@
   align-items: center;
   fill: $primary-white-color;
   background-color: rgba(255, 255, 255, 0.1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .form {
