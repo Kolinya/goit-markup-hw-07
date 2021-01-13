@@ -7,28 +7,53 @@
   align-items: center;
   fill: #afb1b8;
   background-color: rgba(255, 255, 255, 0.1);
-}
-.social-links a:hover,
-.social-links a:focus {
-  fill: $primary-white-color;
-  background-color: $accent-color;
+
+  &:hover,
+  &:focus {
+    fill: $primary-white-color;
+    background-color: $accent-color;
+  }
 }
 .team {
   background: $secondary-background;
   padding-bottom: 94px;
   padding-top: 94px;
-}
-.team-title {
-  margin-bottom: 50px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: $primary-title-color;
-}
-.team-container {
-  display: flex;
+
+  &-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: $primary-title-color;
+  }
+  &-container {
+    display: flex;
+  }
+  &-info {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &-member {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $primary-title-color;
+  }
+  &-prof {
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+  }
 }
 .items {
   background: $primary-white-color;
@@ -41,27 +66,4 @@
 }
 .team-container :last-child {
   margin-right: 0px;
-}
-.team-info {
-  justify-content: center;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.team-member {
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: $primary-title-color;
-}
-.team-prof {
-  margin-bottom: 16px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: $primary-text-color;
 }

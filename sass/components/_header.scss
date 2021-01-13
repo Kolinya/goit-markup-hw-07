@@ -29,84 +29,91 @@
 .nav-list {
   display: flex;
   align-items: center;
+
+  & .link {
+    color: $primary-title-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+
+  & > a {
+    font-family: "raleway", sans-serif;
+  }
 }
 .main-nav {
   display: flex;
   align-items: center;
 }
-.link,
-.link-opened {
+.link {
   padding-bottom: 32px;
   padding-top: 32px;
-}
-.link-opened::after {
-  content: "";
-  position: absolute;
-  display: block;
-  height: 4px;
-  width: 100%;
-  bottom: -1px;
-  border-radius: 2px;
-  background-color: $accent-color;
-}
-.link-opened {
-  color: $accent-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+
+  &-opened {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    color: $accent-color;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 4px;
+      width: 100%;
+      bottom: -1px;
+      border-radius: 2px;
+      background-color: $accent-color;
+    }
+  }
 }
 .item {
   display: flex;
   position: relative;
   margin-right: 50px;
+
+  &:first-child {
+    margin-right: 93px;
+  }
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
-.item:first-child {
-  margin-right: 93px;
-}
-.item:last-child {
-  margin-right: 0px;
-}
-.nav-list .link {
-  color: $primary-title-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.nav-list .link:hover,
-.nav-list .link:focus {
-  color: $accent-color;
-}
-.nav-list > a {
-  font-family: "raleway", sans-serif;
-}
 .contacts {
   margin-right: 50px;
-}
-.contacts:last-child {
-  margin-right: 0px;
-}
-.contacts-nav {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-}
-.contacts .link {
-  display: flex;
-  color: $primary-text-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  align-items: center;
-}
 
-.contacts a:hover {
-  color: $accent-color;
-}
+  &:last-child {
+    margin-right: 0px;
+  }
+  &-nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  }
+  & .link {
+    display: flex;
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    align-items: center;
+  }
 
+  & a:hover {
+    color: $accent-color;
+  }
+}
 .contact {
   margin-right: 10px;
   fill: currentColor;
